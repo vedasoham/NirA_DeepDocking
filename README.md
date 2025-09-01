@@ -1,6 +1,6 @@
 # Deep Docking-Based Virtual Screening for NirA Inhibitors
 
-This repository implements a deep learning-guided virtual screening protocol for identifying potential inhibitors of the **NirA protein**, using an ultra-large chemical library. The workflow is based on the original Deep Docking framework by [James Gleave](https://github.com/jamesgleave/DD_protocol), modified and optimized for phytochemical screening against NirA, a key enzyme of interest in this study.
+This repository implements a deep learning-guided virtual screening protocol for identifying potential inhibitors of the **NirA protein**, using an ultra-large chemical library. The workflow is based on the original Deep Docking framework by **James Gleave**, modified and optimized for phytochemical screening against NirA, a key enzyme of interest in this study.
 
 ## 🧠 Overview of the Protocol
 
