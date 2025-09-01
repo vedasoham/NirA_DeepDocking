@@ -10,6 +10,8 @@ The methodology combines deep neural network-based filtering with molecular dock
   <img src="https://github.com/vedasoham/images/dd_protocol.png" width="800"/>
 </p>
 
+![Workflow](https://github.com/vedasoham/images/dd_protocol.png)
+
 ### Key Steps:
 1. **Sampling from Library**: Compounds are sampled from public databases (ZINC, DUDE, IMPPAT, COCONUT).
 2. **Data Preparation**: Decoys and actives are prepared based on molecular weight and activity criteria.
