@@ -39,7 +39,7 @@ The methodology combines deep neural network-based filtering with molecular dock
 - ## 📖 Reference
 If you use this repository or base your work on it, please cite:
 - Ton et al. (2020) *Deep Docking: A Deep Learning Platform for Augmentation of Structure Based Drug Discovery* [DOI](https://doi.org/10.1021/acs.jcim.0c00413)
-- [Original Deep Docking GitHub](https://github.com/jamesgleave/deep-docking)
+- [Original Deep Docking GitHub](https://github.com/jamesgleave/DD_protocol)
 
 - ## 📬 Contact
 For queries, contact: `thedrsoham[at]gmail[dot]com` or open an issue in this repository.
