@@ -7,8 +7,9 @@ This repository implements a deep learning-guided virtual screening protocol for
 The methodology combines deep neural network-based filtering with molecular docking to rapidly prioritize promising binders from a massive compound library.
 
 <p align="center">
-  <img src="https://github.com/vedasoham/images/dd_protocol.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/vedasoham/images/main/dd_protocol.png" width="800"/>
 </p>
+
 
 
 ### Key Steps:
