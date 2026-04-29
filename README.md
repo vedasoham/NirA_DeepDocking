@@ -1,47 +1,64 @@
-# Deep Docking-Based Virtual Screening for NirA Inhibitors
+<div align="center">
 
-This repository implements a deep learning-guided virtual screening protocol for identifying potential inhibitors of the **NirA protein**, using an ultra-large chemical library. The workflow is based on the original Deep Docking framework by **James Gleave**, modified and optimized for phytochemical screening against NirA, a key enzyme of interest in this study.
-
-## Overview of the Protocol
-
-The methodology combines deep neural network-based filtering with molecular docking to rapidly prioritize promising binders from a massive compound library.
+# NirA-DeepDocking
+### Accelerating ultra-large-library docking with deep learning for NirA-targeted drug-molecule discovery.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vedasoham/images/main/dd_protocol.png" width="1000"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Deep_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Molecular_Docking-14b8a6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" />
 </p>
 
+---
 
+### Overview
+This repository implements a **deep learning-guided virtual screening protocol** to identify potential inhibitors of the **NirA protein**—a mission-critical enzyme for therapeutic targeting. By leveraging an ultra-large chemical library and neural network filtering, this workflow achieves a massive reduction in computational overhead while maintaining high precision.
 
-### Key Steps:
-1. **Sampling from Library**: Compounds are sampled from public databases (ZINC, DUDE, IMPPAT, COCONUT).
-2. **Data Preparation**: Decoys and actives are prepared based on molecular weight and activity criteria.
-3. **Dataset Split**: ~9 million phytochemicals are split into:
-   - Training
-   - Validation
-   - Testing
-4. **Deep Neural Network Training**:
-   - Hyperparameter tuning
-   - Training set size optimization
-   - Model selection
-5. **Virtual Screening**:
-   - Predict docking scores
-   - Discard low-score compounds
-   - Retain top hits as *virtual hits*
-6. **Validation**: Top hits are validated using molecular docking against the NirA protein.
-7. **Iterative Refinement**: Top compounds are re-scored, re-trained, and filtered in successive rounds.
+---
 
-## Results Summary
-- **Library Size**: ~9 million
-- **Top Scoring Hits**: 44,168 compounds
-- **Databases**: ZINC, DUDE, IMPPAT, COCONUT
-- **Architecture**: Feed-forward Deep Neural Network with hyperparameter tuning and iterative refinement
+### Graphical Abstract
+<img src="https://raw.githubusercontent.com/vedasoham/NirA_DeepDocking/main/.github/protocol.png" width="100%" alt="Deep Docking Protocol Workflow" />
 
-- ## Reference
-If you use this repository or base your work on it, please cite:
-- Ton et al. (2020) *Deep Docking: A Deep Learning Platform for Augmentation of Structure Based Drug Discovery* [DOI](https://doi.org/10.1021/acs.jcim.0c00413)
-- [Original Deep Docking GitHub](https://github.com/jamesgleave/DD_protocol)
+</div>
 
-- ## Contact
-For queries, contact: `thedrsoham[at]gmail[dot]com` or open an issue in this repository.
+### Methodology
+The methodology combines deep neural network-based filtering with molecular docking to rapidly prioritize promising binders from an initial library of **~9 million compounds**.
 
-> "Accelerating ultra-large-scale docking with deep learning for NirA-targeted compound discovery."
+1.  **Sampling from Library**: High-diversity sampling from **ZINC**, **DUDE**, **IMPPAT**, and **COCONUT**.
+2.  **Data Preparation**: Automated preparation of decoys and actives based on precise molecular weight and activity criteria.
+3.  **Dataset Split**: Stratified partitioning of ~9 million phytochemicals into Training, Validation, and Testing sets.
+4.  **Neural Network Training**: Implementation of a feed-forward DNN with optimized hyperparameters for score prediction.
+5.  **Virtual Screening**: Rapid prediction of docking scores to discard low-affinity compounds and retain high-confidence virtual hits.
+6.  **Validation & Refinement**: Top hits undergo rigorous validation via molecular docking followed by iterative re-scoring and training rounds.
+
+---
+
+**Breif about the modal :---**
+
+**Initial Library Size**: ~9,000,000 Compounds
+**Virtual Hits Identified**: 44,168 Compounds
+
+**Model Architecture**: Feed-forward Deep Neural Network
+**Optimization**: Iterative Refinement & Hyperparameter Tuning
+
+---
+
+### 📚 Academic Citation
+If you utilize this protocol or build upon this research, please cite the original framework and our specialized implementation:
+
+* **Original Framework**: [Gentile, F. et al. Artificial intelligence–enabled virtual screening of ultra-large chemical libraries with deep docking. Nat. Protoc. 17, 672–697](https://www.nature.com/articles/s41596-021-00659-2)
+* **Source Implementation**: [Original Deep Docking GitHub](https://github.com/jamesgleave/DD_protocol).
+
+---
+
+<div align="center">
+
+**CONTACT for COLLABORATION**
+<br/>
+`thedrsoham[at]gmail[dot]com`
+<br/>
+
+*"Not the end, but the beginning of a mission."*
+
+</div>
