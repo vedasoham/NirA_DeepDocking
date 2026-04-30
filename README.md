@@ -44,7 +44,7 @@ The methodology combines deep neural network-based filtering with molecular dock
 
 ---
 
-### 📚 Academic Citation
+### Citation
 If you utilize this protocol or build upon this research, please cite the original framework and our specialized implementation:
 
 * **Original Framework**: [Gentile, F. et al. Artificial intelligence–enabled virtual screening of ultra-large chemical libraries with deep docking. Nat. Protoc. 17, 672–697](https://www.nature.com/articles/s41596-021-00659-2)
