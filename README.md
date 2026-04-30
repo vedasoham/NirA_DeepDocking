@@ -52,7 +52,7 @@ If you utilize this protocol or build upon this research, please cite the origin
 
 ---
 
-**CONTACT for COLLABORATION**: `thedrsoham[at]gmail[dot]com`
+**CONTACT for COLLABORATION**: `thedrsoham[at]gmail[dot]com` | [Computational and eXperimental Biomolecular Lab](https://github.com/cxbl-gbu)
 
 
 <div align="center">
