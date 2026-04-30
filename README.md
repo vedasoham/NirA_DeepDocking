@@ -52,13 +52,10 @@ If you utilize this protocol or build upon this research, please cite the origin
 
 ---
 
+**CONTACT for COLLABORATION**: `thedrsoham[at]gmail[dot]com`
+
+
 <div align="center">
-
-**CONTACT for COLLABORATION**
-<br/>
-`thedrsoham[at]gmail[dot]com`
-<br/>
-
 *"Not the end, but the beginning of a mission."*
 
 </div>
